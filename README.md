@@ -28,8 +28,7 @@
 4.  **Configure Django REST Framework JWT:**
 
     - add SIMPLE_JWT configuration at the end of `settings.py`:
-
-      - ```SIMPLE_JWT = {
+      ```SIMPLE_JWT = {
         'ACCESS_TOKEN_LIFETIME': timedelta(minutes=10000),
         'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
         'ROTATE_REFRESH_TOKENS': False,
